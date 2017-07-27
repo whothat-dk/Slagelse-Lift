@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9dd1eda9-204b-4ab5-9c70-ee786ec6d19c" name="WHOTHAT" url="http://vsrv59.vmc1.systemina.dk">
+        <fileTransfer host="vsrv59.vmc1.systemina.dk" port="21" rootFolder="/docs/slagelselift.dk">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
