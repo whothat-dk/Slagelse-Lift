@@ -170,7 +170,7 @@
     width:50%;
   }
   .footer_company_info{
-    padding-left: 0px;
+    padding-left: 0;
   }
   .footer_menu_container{
     margin-bottom: 20px;
@@ -191,7 +191,7 @@
     margin: 0 auto;
   }
   .breadcrumb_container{
-    margin-top: 0px;
+    margin-top: 0;
   }
   .header_nav_resp{
     display: block;
@@ -209,7 +209,7 @@
     padding-top: 28px;
   }
   .vc_infobox_container{
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .vc_employeebox_container{
     height: 217px;
@@ -267,8 +267,7 @@
   }
   .vc_fa_icon{
     display: block !important;
-    margin: 0 auto;
-    margin-bottom:20px;
+    margin: 0 auto 20px;
   }
 }
 
@@ -290,5 +289,55 @@
   }
   .header_nav_resp{
     top:11px;
+  }
+}
+
+// Responsive for the GRID
+@media only screen and (max-width: 1200px) {
+  .gc{
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .col4:not(.keep), .col5:not(.keep), .col6:not(.keep), .col7:not(.keep), .col8:not(.keep), .col9:not(.keep), .col10:not(.keep), .col11:not(.keep), .col12:not(.keep) {
+    width: 100%;
+  }
+  .col3:not(.keep){
+    width:50%;
+  }
+  .col2:not(.keep){
+    width:33.3%;
+  }
+  .col1:not(.keep){
+    width:16.6%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .col2:not(.keep){
+    width:50%;
+  }
+  .col1:not(.keep){
+    width:33.3%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .col2:not(.keep){
+    width:50%;
+  }
+  .col1:not(.keep){
+    width:50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .col1:not(.keep) {
+    width: 100%;
   }
 }
