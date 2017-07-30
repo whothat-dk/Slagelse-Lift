@@ -10,21 +10,21 @@
 @import "animation/animate";
 
 /**
- * Importing FOOTER
- */
-
-
-/**
  * Importing LAYOUT
  */
-
+@import "layout/grid";
+@import "layout/responsive";
 
 /**
  * Importing NAVIGATION
  */
-
+@import "navigation/navigation";
 
 /**
  * Importing SITE
  */
 @import "site/site";
+
+/**
+ * Importing FOOTER
+ */
