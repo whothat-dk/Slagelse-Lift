@@ -1,3 +1,9 @@
-$dosisFont: 'Dosis', sans-serif;
-$latoFont: 'Lato', sans-serif;
-$oswaldFont: 'Oswald', sans-serif;
+/**
+ * Importing FONT FACE(s)
+ */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/**
+ * Variables
+ */
+$font-Oswald: 'Oswald', sans-serif;

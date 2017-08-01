@@ -16,6 +16,13 @@ $grid-spacing:3%;
   }
 }
 
+.gc {
+
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
 [class^="col-"] {
   float:left;
   margin-right:$grid-spacing;
