@@ -1,0 +1,562 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lana Site\n"
+"POT-Creation-Date: 2017-06-27 09:12+0200\n"
+"PO-Revision-Date: 2016-11-12 17:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: functions/class-tgm-plugin-activation.php\n"
+
+#: 404.php:6
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:9
+msgid "404 - Page Not Found."
+msgstr ""
+
+#: 404.php:12
+msgid "Whatever you were looking for was not found."
+msgstr ""
+
+#: 404.php:20 searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: 404.php:23
+msgid "Maybe try to use a search?"
+msgstr ""
+
+#: 404.php:29 functions/lana-menu.php:274
+msgid "Home"
+msgstr ""
+
+#: 404.php:32
+msgid "Or click the button below to go to the Home page"
+msgstr ""
+
+#: 404.php:37
+msgid "Take Me Home"
+msgstr ""
+
+#: archive-lana_employee.php:6
+msgid "Employees"
+msgstr ""
+
+#: archive-lana_employee.php:52 taxonomy-lana_employee_category.php:57
+msgid "Profile"
+msgstr ""
+
+#: archive-lana_employee.php:65 archive-lana_partner.php:42
+#: archive-lana_project.php:53 archive-lana_testimonial.php:69 archive.php:27
+#: author.php:27 taxonomy-lana_employee_category.php:70
+#: taxonomy-lana_project_category.php:51
+msgid "No Posts"
+msgstr ""
+
+#: archive-lana_employee.php:66 archive-lana_partner.php:43
+#: archive-lana_project.php:54 archive-lana_testimonial.php:70 archive.php:28
+#: author.php:28 taxonomy-lana_employee_category.php:71
+#: taxonomy-lana_project_category.php:52
+msgid "Sorry, What you were looking for is not here."
+msgstr ""
+
+#: archive-lana_partner.php:6
+msgid "Partners"
+msgstr ""
+
+#: archive-lana_project.php:6
+msgid "Projects"
+msgstr ""
+
+#: archive-lana_project.php:38 taxonomy-lana_project_category.php:36
+msgid "Project details"
+msgstr ""
+
+#: archive-lana_testimonial.php:6
+msgid "Testimonials"
+msgstr ""
+
+#: archive-lana_testimonial.php:34
+msgid "Read more"
+msgstr ""
+
+#: attachment.php:8
+msgid "Attachment"
+msgstr ""
+
+#: attachment.php:28 image.php:35 page.php:35 single-lana_employee.php:56
+#: single-lana_partner.php:42 single-lana_project.php:138
+#: single-lana_testimonial.php:59 single.php:22 template-full-width.php:42
+#: template-lana-editor.php:33 template-left-sidebar.php:46
+#: template-right-sidebar.php:42 text.php:31
+msgid "Sorry, this page does not exist."
+msgstr ""
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: footer.php:26
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:29
+msgid "Y"
+msgstr ""
+
+#: functions.php:134
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:135
+msgid "This is the primary in right (or left) sidebar"
+msgstr ""
+
+#: functions.php:144
+msgid "Home Top Sidebar"
+msgstr ""
+
+#: functions.php:145
+msgid "This is the sidebar in home top"
+msgstr ""
+
+#: functions.php:154
+msgid "Left Footer"
+msgstr ""
+
+#: functions.php:155 functions.php:165 functions.php:175
+msgid "footer.php"
+msgstr ""
+
+#: functions.php:164
+msgid "Middle Footer"
+msgstr ""
+
+#: functions.php:174
+msgid "Right Footer"
+msgstr ""
+
+#: functions/lana-menu.php:52
+msgid "Lana Main Menu"
+msgstr ""
+
+#: functions/lana-menu.php:105
+msgid "Lana Head Menu"
+msgstr ""
+
+#: functions/lana-menu.php:123
+msgid "Lana Footer Menu"
+msgstr ""
+
+#: functions/lana-menu.php:291
+msgid "Add a menu"
+msgstr ""
+
+#: functions/lana-menu.php:291
+msgid "admin"
+msgstr ""
+
+#: functions/lana-tgm.php:16
+msgid "Lana Shortcodes"
+msgstr ""
+
+#: functions/lana-tgm.php:26
+msgid "Lana Breadcrumb"
+msgstr ""
+
+#: functions/lana-tgm.php:36
+msgid "Lana Widgets"
+msgstr ""
+
+#: functions/lana-tgm.php:46
+msgid "Lana Contact Form"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:26
+#: functions/lana-theme-customizer.php:173
+msgid "Display"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:40
+msgid "Display Style"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:45
+msgid "Default (light)"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:46
+msgid "Inverse (dark)"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:48
+msgid "Select the display style"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:60
+msgid "Display Layout"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:65
+msgid "Boxed"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:66
+msgid "Wide"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:68
+msgid "Select the body display layout"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:80
+msgid "Navbar Position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:85
+msgid "in Header"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:86
+msgid "in Content"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:88
+msgid "Select the navbar position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:100
+msgid "Navbar Sticky"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:108
+msgid "Select the sticky navbar option"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:116
+msgid "Header"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:132
+msgid "Site Title Font"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:136
+msgid "Select the logo Google Fonts"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:148
+msgid "Site Title Position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:153
+#: functions/lana-theme-customizer.php:301
+#: functions/lana-theme-customizer.php:321
+msgid "Left"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:154
+msgid "Center"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:156
+msgid "Select the Site Title (or Logo) position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:168
+msgid "Search Widget"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:174
+msgid "Hidden"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:176
+msgid "The search widget always hidden when Site Title Position is center"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:210
+msgid "Tagline Color"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:213
+msgid "Select the tagline (site description in header) color"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:230
+msgid "Lana Site - Background Image"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:235
+msgid "flowers.png"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:236
+msgid "games.png"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:237
+msgid "shattered.png"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:239
+msgid "Select the predefined body background image"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:247
+msgid "Footer"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:261
+msgid "Footer Type"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:266
+msgid "Text"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:267
+msgid "Navbar (Lana Footer Menu)"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:269
+msgid "Select the footer type"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:281
+msgid "Footer Text"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:296
+msgid "Footer Position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:302
+#: functions/lana-theme-customizer.php:322
+msgid "Right"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:304
+msgid "Select the footer position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:316
+msgid "Footer Copyright Position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:324
+msgid "Select the footer copyright text position"
+msgstr ""
+
+#: functions/lana-theme-customizer.php:428
+msgid "Lana Site"
+msgstr ""
+
+#: functions/lana-theme.php:62
+#, php-format
+msgid "%s says:"
+msgstr ""
+
+#: functions/lana-theme.php:71
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/lana-theme.php:83 template-parts/post/content-aside.php:30
+#: template-parts/post/content-gallery.php:67
+#: template-parts/post/content-image.php:66
+#: template-parts/post/content-link.php:29
+#: template-parts/post/content-quote.php:30
+#: template-parts/post/content-status.php:51
+#: template-parts/post/content-video.php:67
+#: template-parts/post/content.php:61
+#: template-parts/search/content-search-page.php:34
+#: template-parts/search/content-search.php:60
+msgid "Edit"
+msgstr ""
+
+#: functions/lana-theme.php:108
+msgid "Name"
+msgstr ""
+
+#: functions/lana-theme.php:110 functions/lana-theme.php:116
+#: functions/lana-theme.php:123 functions/lana-theme.php:129
+msgid "* required"
+msgstr ""
+
+#: functions/lana-theme.php:113
+msgid "Your Name"
+msgstr ""
+
+#: functions/lana-theme.php:121
+msgid "Email"
+msgstr ""
+
+#: functions/lana-theme.php:126
+msgid "email@example.com"
+msgstr ""
+
+#: functions/lana-theme.php:134
+msgid "Website"
+msgstr ""
+
+#: functions/lana-theme.php:174
+msgid "Comment"
+msgstr ""
+
+#: functions/lana-theme.php:248
+msgid "Password:"
+msgstr ""
+
+#: functions/lana-theme.php:251
+msgid "Submit"
+msgstr ""
+
+#: functions/lana-theme.php:256
+msgid ""
+"This content is password protected. To view it please enter your password."
+msgstr ""
+
+#: functions/lana-theme.php:290
+msgid "Read More"
+msgstr ""
+
+#: header.php:31 header.php:52 header.php:107 header.php:128
+msgid "Toggle navigation"
+msgstr ""
+
+#: home.php:31 index.php:23 search.php:32
+msgid "Nothing Found"
+msgstr ""
+
+#: home.php:36
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: home.php:38
+msgid "Get started here"
+msgstr ""
+
+#: home.php:43 index.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: image.php:10
+msgid "Image Attachment"
+msgstr ""
+
+#: page.php:26 single-lana_employee.php:45 single-lana_partner.php:31
+#: single-lana_project.php:127 single-lana_testimonial.php:48
+#: template-full-width.php:33 template-lana-editor.php:24
+#: template-left-sidebar.php:37 template-parts/post/content-aside.php:42
+#: template-parts/post/content-gallery.php:75
+#: template-parts/post/content-image.php:74
+#: template-parts/post/content-link.php:41
+#: template-parts/post/content-quote.php:42
+#: template-parts/post/content-status.php:58
+#: template-parts/post/content-video.php:75
+#: template-parts/post/content.php:68 template-right-sidebar.php:33
+msgid "Pages:"
+msgstr ""
+
+#: search.php:6
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: search.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single-lana_partner.php:15
+msgid "Partner"
+msgstr ""
+
+#: single-lana_project.php:31
+msgid "Project"
+msgstr ""
+
+#: single-lana_project.php:42
+msgid "Description"
+msgstr ""
+
+#: single-lana_project.php:59
+msgid "Project Image"
+msgstr ""
+
+#: single-lana_project.php:68
+msgid "Project Information"
+msgstr ""
+
+#: single-lana_project.php:75
+msgid "Categories"
+msgstr ""
+
+#: single-lana_project.php:91
+msgid "Tags"
+msgstr ""
+
+#: single-lana_project.php:107
+msgid "Type"
+msgstr ""
+
+#: single-lana_project.php:115
+msgid "Project Manager"
+msgstr ""
+
+#: template-parts/post/content-gallery.php:23
+msgid "gallery"
+msgstr ""
+
+#: template-parts/post/content-gallery.php:48
+#: template-parts/post/content-image.php:47
+#: template-parts/post/content-video.php:47
+#: template-parts/post/content.php:38
+#: template-parts/search/content-search.php:57
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/post/content-gallery.php:48
+#: template-parts/post/content-image.php:47
+#: template-parts/post/content-video.php:47
+#: template-parts/post/content.php:38
+#: template-parts/search/content-search.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/post/content-gallery.php:48
+#: template-parts/post/content-image.php:47
+#: template-parts/post/content-video.php:47
+#: template-parts/post/content.php:38
+#: template-parts/search/content-search.php:57
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/post/content-image.php:22
+msgid "image"
+msgstr ""
+
+#: template-parts/post/content-video.php:22
+msgid "video"
+msgstr ""
+
+#: text.php:10
+msgid "Text Attachment"
+msgstr ""

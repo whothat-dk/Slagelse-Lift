@@ -5,6 +5,15 @@
  * Date: 27-07-2017
  * Time: 14:25
  */
+defined( 'ABSPATH' ) or die();
+define( 'WHOTHAT_SITE_VERSION', '1.0.0' );
+/**
+ * include
+ * other functions
+ */
+//include_once get_template_directory() . '/functions/lana-menu.php';
+include_once get_template_directory() . '/functions/whothat-theme.php';
+include_once get_template_directory() . '/functions/whothat-theme-customizer.php';
 
 // REMOVE WP STUFF
 remove_action('wp_head', 'print_emoji_detection_script', 7);
@@ -46,127 +55,6 @@ function main_nav() {
 }
 add_action( 'init', 'main_nav' );
 
-//ADD SUPPORT FOR THEME CUSTOMIZATION
-add_action( 'customize_register', 'theme_options' );
-
-/**
- * Wp Customize
- */
-function theme_options( $wp_customize ) {
-	//Header settings
-	$wp_customize->add_section( 'header_options',
-		array(
-			'title'       => __( 'Header Settings', 'priisholm' ),
-			'priority'    => 100,
-			'description' => __('Change header options here.', 'priisholm'),
-		)
-	);
-
-	//footer settings
-	$wp_customize->add_section( 'footer_options',
-		array(
-			'title'       => __( 'Footer Settings', 'espenheins' ),
-			'priority'    => 100,
-			'description' => __('Change footer options here.', 'espenheins'),
-		)
-	);
-
-	//Header
-	$wp_customize->add_setting( 'header_logo' );
-	$wp_customize->add_setting( 'resp_logo' );
-	$wp_customize->add_setting( 'header_phone' );
-
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'header_logo', array(
-		'label'    => __( 'Logo', 'espenheins' ),
-		'section'  => 'header_options',
-		'settings' => 'header_logo',
-	) ) );
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'resp_logo', array(
-		'label'    => __( 'Mobile menu logo', 'espenheins' ),
-		'section'  => 'header_options',
-		'settings' => 'resp_logo',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'header_phone', array(
-		'label'    => __( 'Døgnvagt telefon', 'espenheins' ),
-		'section'  => 'header_options',
-		'settings' => 'header_phone',
-		'type'     => 'text',
-	) ) );
-
-
-	//Footer
-	$wp_customize->add_setting( 'footer_logo' );
-	$wp_customize->add_setting( 'footer_company' );
-	$wp_customize->add_setting( 'footer_address' );
-	$wp_customize->add_setting( 'footer_city' );
-	$wp_customize->add_setting( 'footer_cvr' );
-	$wp_customize->add_setting( 'footer_tel' );
-	$wp_customize->add_setting( 'footer_email' );
-	$wp_customize->add_setting( 'footer_logo_1' );
-	$wp_customize->add_setting( 'footer_logo_2' );
-
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'footer_logo', array(
-		'label'    => __( 'Logo', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_logo',
-	) ) );
-
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_company', array(
-		'label'    => __( 'Company', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_company',
-		'type'     => 'text',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_address', array(
-		'label'    => __( 'Address', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_address',
-		'type'     => 'text',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_city', array(
-		'label'    => __( 'City', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_city',
-		'type'     => 'text',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_cvr', array(
-		'label'    => __( 'CVR', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_cvr',
-		'type'     => 'text',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_tel', array(
-		'label'    => __( 'Telephone', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_tel',
-		'type'     => 'text',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_email', array(
-		'label'    => __( 'Email', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_email',
-		'type'     => 'text',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'footer_logo_1', array(
-		'label'    => __( 'Footer logoer 1', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_logo_1',
-	) ) );
-
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'footer_logo_2', array(
-		'label'    => __( 'Footer logoer 2', 'espenheins' ),
-		'section'  => 'footer_options',
-		'settings' => 'footer_logo_2',
-	) ) );
-}
 
 /*
 require_once( get_template_directory().'/woocommerce/woocommerce-settings.php' );

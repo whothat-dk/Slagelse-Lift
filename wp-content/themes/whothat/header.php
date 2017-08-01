@@ -13,36 +13,37 @@
 	<body>
         <!-- resetting GRID -->
 		<header class="row">
-			<!-- UPPER : LEFT -->
-            <div class="col-4">
-	            <?php if ( get_theme_mod( 'header_logo' ) ) : ?>
-                    <div class='logo'>
-                        <a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>
-                            <img src='<?php echo esc_url( get_theme_mod( 'header_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'>
-                        </a>
-                    </div>
-	            <?php else : ?>
-                <hgroup>
-                    <h1 class='site-title'>
+            <!-- Background image of header -->
+            <div class="content" style="background-image: url(<?php echo esc_url( get_theme_mod( 'header_background' ) ); ?>);">
+                <!-- UPPER : LEFT -->
+                <div class="col-12">
+                    <?php if ( get_theme_mod( 'header_logo' ) ) : ?>
+                        <div class='logo'>
+                            <a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>
+                                <img src='<?php echo esc_url( get_theme_mod( 'header_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'>
+                            </a>
+                        </div>
+		            <?php else : ?>
+                    <h1 class="logo">
                         <a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'>
 				            <?php bloginfo( 'name' ); ?></a>
                     </h1>
-                </hgroup>
-            </div>
-            <!-- UPPER : RIGHT -->
-            <div class="col-8">
-	            <?php endif; ?>
-                <div class="naviBar menu">
-		            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                 </div>
-                <div class="header_nav_resp">
-                    <div class="burger_menu">
-                        <div class="burger-bar"></div>
+                <!-- UPPER : RIGHT -->
+                <div class="col-8">
+		            <?php endif; ?>
+                    <div class="menu">
+			            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                    </div>
+                    <div class="header_nav_resp">
+                        <div class="burger_menu">
+                            <div class="burger-bar"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- LOWER PART -->
-            <div class="col-12">
+                <!-- LOWER PART -->
+                <div class="col-12">
 
+                </div>
             </div>
 		</header>
