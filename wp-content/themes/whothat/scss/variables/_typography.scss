@@ -1,12 +1,42 @@
 /**
- * xx
+ * H-TAG's
  */
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+/**
+ * P-TAG's
+ */
+p {
+
+}
 
 /**
  * A-TAG's
  */
-$a-tags: 'a, a:active, a:hover, a:visited';
-$a-tags-hover: 'a:active, a:hover';
+$a-tags: 'a, a:active, a:hover, a:visited'; // Bliver vist ikke brugt pt. ?!
+$a-tags-hover: 'a:active, a:hover';         // Bliver vist ikke brugt pt. ?!
 
 @mixin links ($link, $visited, $hover, $active) {
 

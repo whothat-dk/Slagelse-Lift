@@ -6,7 +6,7 @@
 }
 
 //----- Grid System
-$grid-spacing:3%;
+$grid-spacing:1.25%;
 
 .row {
   @extend %clearfix;
@@ -26,6 +26,7 @@ $grid-spacing:3%;
 [class^="col-"] {
   float:left;
   margin-right:$grid-spacing;
+  margin-left:$grid-spacing;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
   box-sizing:border-box;

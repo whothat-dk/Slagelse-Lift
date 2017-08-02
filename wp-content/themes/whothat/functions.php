@@ -15,7 +15,9 @@ define( 'WHOTHAT_SITE_VERSION', '1.0.0' );
 include_once get_template_directory() . '/functions/whothat-theme.php';
 include_once get_template_directory() . '/functions/whothat-theme-customizer.php';
 
-// REMOVE WP STUFF
+/**
+ * REMOVE WP STUFF
+ */
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action('wp_head', 'rsd_link');
@@ -28,20 +30,25 @@ function enqueue_our_required_stylesheets(){
 }
 add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 
-//CSS Control
-add_filter( 'woocommerce_enqueue_styles', '__return_false' );
-wp_enqueue_style( 'woocommerce-layout', plugins_url() .'/woocommerce/assets/css/woocommerce-layout.css' );
-wp_enqueue_style( 'woocommerce', plugins_url() .'/woocommerce/assets/css/woocommerce.css' );
-wp_enqueue_style( 'woocommerce-custom', get_template_directory_uri() .'/css/woocommerce-custom.css' );
+/**
+ * CSS Control
+ */
 wp_enqueue_style( 'fonts', get_template_directory_uri() .'/css/fonts/fonts.css' );
 wp_enqueue_style( 'responsive', get_template_directory_uri() .'/css/responsive.css' );
 wp_enqueue_style( 'animate', get_template_directory_uri() .'/css/animate.css' );
 
-// Javascript
-wp_enqueue_script( 'main', get_template_directory_uri() . '/js/scripts.js', array ( 'jquery' ), 1.1, true);
+/**
+ * Javascript
+ */
+//wp_enqueue_script( 'main', get_template_directory_uri() . '/js/scripts.js', array ( 'jquery' ), 1.1, true);
+wp_register_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.js', array( 'jquery' ), '1.0.0' );
+wp_enqueue_script( 'hamburger' );
+wp_register_script( 'loader', get_template_directory_uri() . '/js/loader.js', array( 'jquery' ), '1.0.0' );
+wp_enqueue_script( 'loader' );
 
-// ADD SUPPORT FOR NAV_MENUS.
-
+/**
+ * ADD SUPPORT FOR NAV_MENUS.
+ */
 function main_nav() {
 	register_nav_menus(
 		array(
@@ -60,19 +67,4 @@ add_action( 'init', 'main_nav' );
 require_once( get_template_directory().'/woocommerce/woocommerce-settings.php' );
 */
 
-/**
- * Visual composer settings
- */
-
-// Before VC Init
-add_action( 'vc_before_init', 'vc_before_init_actions' );
-
-function vc_before_init_actions() {
-
-	// Require new custom Element
-	//require_once( get_template_directory().'/composer/imageBox.php' );
-	//require_once( get_template_directory().'/composer/infoBox.php' );
-	//require_once( get_template_directory().'/composer/employeeBox.php' );
-	//require_once( get_template_directory().'/composer/faIconBox.php' );
-
-}
+include_once get_template_directory() . '/functions/whothat-composer-elements.php';

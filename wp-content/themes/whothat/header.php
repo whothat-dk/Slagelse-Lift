@@ -7,10 +7,16 @@
 		<title><?php wp_title('&raquo;','true','right'); ?><?php bloginfo('name'); ?></title>
         <!-- Hamburger script comes here -->
         <script></script>
+        <!-- Enables custom site loader -->
+
 		<?php wp_head(); ?>
 	</head>
 
-	<body>
+	<body id="body" onload="hideLoader()">
+        <!-- Custom Loader -->
+        <div id="load_screen">
+            <div id="loading"></div>
+        </div>
         <!-- resetting GRID -->
 		<header class="row">
             <!-- Background image of header -->
