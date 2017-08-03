@@ -20,7 +20,8 @@ $grid-spacing:1.25%;
 .gc {
 
   width: 1200px;
-  margin: 0 auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   display: block;
 }
 
