@@ -9,22 +9,32 @@ h1 {
 
 h2 {
 
+  font-size: 24px;
+  color: $colorPrimary;
 }
 
 h3 {
 
+  font-size: 20px;
+  color: $colorPrimary;
 }
 
 h4 {
 
+  font-size: 18px;
+  color: $colorPrimary;
 }
 
 h5 {
 
+  font-size: 16px;
+  color: $colorPrimary;
 }
 
 h6 {
 
+  font-size: 13px;
+  color: $colorGrey;
 }
 
 /**
@@ -32,26 +42,13 @@ h6 {
  */
 p {
 
+  font-size: 14px;
+  color: $colorBlack;
 }
 
 /**
  * A-TAG's
  */
-$a-tags: 'a, a:active, a:hover, a:visited'; // Bliver vist ikke brugt pt. ?!
-$a-tags-hover: 'a:active, a:hover';         // Bliver vist ikke brugt pt. ?!
+a {
 
-@mixin links ($link, $visited, $hover, $active) {
-
-  & {
-    color: $link;
-    &:visited {
-      color: $visited;
-    }
-    &:hover {
-      color: $hover;
-    }
-    &:active, &:focus {
-      color: $active;
-    }
-  }
 }

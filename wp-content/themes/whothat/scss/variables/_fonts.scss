@@ -8,12 +8,30 @@
  * Variables
  */
 $font-Oswald: 'Oswald', sans-serif;
-$font-Oswald: 'Lato', sans-serif;
+$font-Lato: 'Lato', sans-serif;
 
 /**
  * Global FONT-FAMILY
  */
 * {
 
-  font-family: $font-Oswald;
+  & a {
+
+    font-family: $font-Oswald;
+  }
+
+  & h1, h2, h3, h4 {
+
+    font-family: $font-Oswald;
+  }
+
+  & h6 {
+
+    font-family: $font-Lato;
+  }
+
+  & p {
+
+    font-family: $font-Lato;
+  }
 }

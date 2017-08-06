@@ -15,6 +15,7 @@ define( 'WHOTHAT_SITE_VERSION', '1.0.0' );
 include_once get_template_directory() . '/functions/whothat-theme.php';
 include_once get_template_directory() . '/functions/whothat-theme-customizer.php';
 include_once get_template_directory() . '/functions/whothat-composer-elements.php';
+include_once get_template_directory() . '/functions/whothat-extras.php';
 
 /**
  * REMOVE WP STUFF
@@ -38,9 +39,7 @@ add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 /**
  * CSS
  */
-wp_enqueue_style( 'fonts', get_template_directory_uri() .'/css/fonts/fonts.css' );
-wp_enqueue_style( 'responsive', get_template_directory_uri() .'/css/responsive.css' );
-wp_enqueue_style( 'animate', get_template_directory_uri() .'/css/animate.css' );
+
 
 /**
  * JAVASCRIPT

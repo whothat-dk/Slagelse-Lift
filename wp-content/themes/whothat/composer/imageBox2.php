@@ -30,42 +30,37 @@ class vc_imagebox extends WPBakeryShortCode {
 				'icon' => get_template_directory_uri().'/assets/img/vc-icon.png',
 				'params' => array(
 
+					array(
+						'type' => 'attach_image',
+						'holder' => 'img',
+						'heading' => __( 'Icon', 'image_box' ),
+						'param_name' => 'icon',
+						'admin_label' => false,
+						'weight' => 0,
+						'group' => 'General',
+					),
 
 					array(
 						'type' => 'textfield',
-						'holder' => 'h2',
+						'holder' => 'h4',
 						'heading' => __( 'Title', 'image_box' ),
 						'param_name' => 'title',
 						'value' => __( 'Input title', 'image_box' ),
 						'admin_label' => false,
-						'weight' => 0,
+						'weight' => 1,
 						'group' => 'General',
 					),
 
-
 					array(
 						'type' => 'textfield',
-						'holder' => 'p',
+						'holder' => 'h6',
 						'heading' => __( 'Subtitle', 'image_box' ),
 						'param_name' => 'subtitle',
 						'value' => __( 'Input title', 'image_box' ),
 						'admin_label' => false,
-						'weight' => 0,
+						'weight' => 2,
 						'group' => 'General',
 					),
-
-
-					array(
-						'type' => 'textarea_raw_html',
-						'heading' => __( 'icon link', 'image_box' ),
-						'param_name' => 'iconlink',
-						'value' => __( 'Input title', 'image_box' ),
-						'admin_label' => false,
-						'weight' => 0,
-						'group' => 'General',
-					),
-
-
 
 					array(
 						'type' => 'colorpicker',
@@ -73,7 +68,7 @@ class vc_imagebox extends WPBakeryShortCode {
 						'param_name' => 'hover_color',
 						'value' => __( 'Hover color', 'image_box' ),
 						'admin_label' => false,
-						'weight' => 0,
+						'weight' => 3,
 						'group' => 'General',
 					),
 
@@ -82,12 +77,9 @@ class vc_imagebox extends WPBakeryShortCode {
 						'heading' => __( 'Choose page', 'image_box' ),
 						'param_name' => 'target_link',
 						'admin_label' => false,
-						'weight' => 0,
+						'weight' => 4,
 						'group' => 'General',
 					),
-
-
-
 
 					array(
 						'type' => 'css_editor',
@@ -95,7 +87,6 @@ class vc_imagebox extends WPBakeryShortCode {
 						'param_name' => 'css',
 						'group' => __( 'Design options', 'image_box' ),
 					),
-
 				),
 			)
 		);
@@ -110,12 +101,12 @@ class vc_imagebox extends WPBakeryShortCode {
 		extract(
 			shortcode_atts(
 				array(
-					'title'   => '',
-					'subtitle' => '',
-					'iconlink'   => '',
-					'css' => '',
+					'icon'   => '',
+					'title' => '',
+					'subtitle'   => '',
 					'hover_color' => '',
 					'target_link' => '',
+					'css' => '',
 				),
 				$atts
 			)
