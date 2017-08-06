@@ -4,16 +4,18 @@ Element Description: VC Image Box
 */
 
 // Element Class
-class vc_imagebox extends WPBakeryShortCode {
+class vc_facebook_button extends WPBakeryShortCode {
+
+
 
 	// Element Init
 	function __construct() {
-		add_action( 'init', array( $this, 'vc_imagebox_mapping' ) );
-		add_shortcode( 'vc_imagebox', array( $this, 'vc_render_imagebox' ) );
+		add_action( 'init', array( $this, 'vc_facebook_button_mapping' ) );
+		add_shortcode( 'vc_facebook_button', array( $this, 'vc_render_facebook_button' ) );
 	}
 
 	// Element Mapping
-	public function vc_imagebox_mapping() {
+	public function vc_facebook_button_mapping() {
 
 		// Stop all if VC is not enabled
 		if ( !defined( 'WPB_VC_VERSION' ) ) {
@@ -23,11 +25,11 @@ class vc_imagebox extends WPBakeryShortCode {
 		// Map the block with vc_map()
 		vc_map(
 			array(
-				'name' => __('Image box', 'image_box'),
-				'base' => 'vc_imagebox',
-				'description' => __('WHOTHAT imagebox', 'image_box'),
-				'category' => __('WHOTHAT elements', 'image_box'),
-				'icon' => get_template_directory_uri().'/assets/img/vc-icon.png',
+				'name' => __('WHOTHAT Facebook Button', 'facebook_button'),
+				'base' => 'vc_facebook_button',
+				'description' => __('Custom FACEBOOK button, that links to an account on the social media ', 'facebook_button'),
+				'category' => __('WHOTHAT elements', 'facebook_button'),
+				'icon' => get_template_directory_uri().'/assets/icons/ic_social_facebook.png',
 				'params' => array(
 
 					array(
@@ -95,7 +97,7 @@ class vc_imagebox extends WPBakeryShortCode {
 
 
 	// Element HTML
-	public function vc_render_imagebox( $atts ) {
+	public function vc_render_facebook_button ( $atts ) {
 
 		// Params extraction
 		extract(
@@ -135,5 +137,5 @@ class vc_imagebox extends WPBakeryShortCode {
 
 
 // Element Class Init
-new vc_imagebox();
+new vc_facebook_button();
 ?>

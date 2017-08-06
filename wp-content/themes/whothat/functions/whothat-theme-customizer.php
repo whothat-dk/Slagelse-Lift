@@ -10,49 +10,6 @@ defined( 'ABSPATH' ) or die();
 //ADD SUPPORT FOR THEME CUSTOMIZATION
 add_action( 'customize_register', 'theme_options' );
 
-//Check see if the customisetheme_setup exists
-if ( !function_exists('customisetheme_setup') ):
-	//Any theme customisations contained in this function
-	function customisetheme_setup() {
-
-		//Define default header image
-		define( 'HEADER_IMAGE', '%s/assets/images/banner-bg.jpg' );
-
-		//Define the width and height of our header image
-		define( 'HEADER_IMAGE_WIDTH', apply_filters( 'customisetheme_header_image_width', 1920 ) );
-		define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'customisetheme_header_image_height', 415 ) );
-
-		//Turn off text inside the header image
-		define( 'NO_HEADER_TEXT', true );
-
-		//Don't forget this, it adds the functionality to the admin menu
-		add_custom_image_header( '', 'customisetheme_admin_header_style' );
-
-
-	}
-endif;
-
-if ( ! function_exists( 'customisetheme_admin_header_style' ) ) :
-	//Function fired and inline styles added to the admin panel
-	//Customise as required
-	function customisetheme_admin_header_style() {
-		?>
-		<style type="text/css">
-			#wpbody-content #headimg {
-				height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
-				width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
-				border: 10px solid #333;
-			}
-		</style>
-		<?php
-	}
-endif;
-
-//Execute our custom theme functionality
-add_action( 'after_setup_theme', 'customisetheme_setup' );
-
-
-
 /**
  * Wp Customize
  */
