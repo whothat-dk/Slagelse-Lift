@@ -62,6 +62,8 @@ function theme_options( $wp_customize ) {
 
 	// Footer
 	$wp_customize->add_setting( 'footer_logo' );
+	$wp_customize->add_setting( 'footer_social_url_facebook' );
+	$wp_customize->add_setting( 'footer_social_url_linkedin' );
 	$wp_customize->add_setting( 'footer_slagelse_vej' );
 	$wp_customize->add_setting( 'footer_slagelse_by' );
 	$wp_customize->add_setting( 'footer_herlev_vej' );
@@ -74,9 +76,25 @@ function theme_options( $wp_customize ) {
 	$wp_customize->add_setting( 'footer_logo_4' );
 	$wp_customize->add_setting( 'footer_disclaimer' );
 
+	// Footer : SLAGELSE
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_social_url_facebook', array(
+		'label'         => __( 'SOCIALE MEDIER (URL)', 'slagelselift' ),
+		'section'       => 'footer_options',
+		'settings'      => 'footer_social_url_facebook',
+		'type'          => 'text',
+		'description'   => 'Facebook',
+	) ) );
+	// Footer : SLAGELSE
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer_social_url_linkedin', array(
+		'section'       => 'footer_options',
+		'settings'      => 'footer_social_url_linkedin',
+		'type'          => 'text',
+		'description'   => 'Linkedin',
+	) ) );
+
 	// Footer : LOGO
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'footer_logo', array(
-		'label'         => __( 'LOGO', 'slagelselift' ),
+		'label'         => __( 'COMPANY LOGO', 'slagelselift' ),
 		'section'       => 'footer_options',
 		'settings'      => 'footer_logo',
 	) ) );

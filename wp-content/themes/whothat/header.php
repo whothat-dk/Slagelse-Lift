@@ -55,4 +55,10 @@
                     </div>
                 </div>
             </div>
+            <!-- Breadcrump -->
+            <div class="breadcrumb">
+                <div class="gc">
+                    <p>breadcrumb >> næste side</p>
+                </div>
+            </div>
 		</header>
