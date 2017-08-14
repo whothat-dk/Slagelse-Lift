@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1794f25-64d3-4481-9e9a-b67787dbde39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/assets/icons/ic_logo_color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/assets/icons/ic_logo_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-theme-customizer.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-theme-customizer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/footer/_footer.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/footer/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/_grid.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/_grid.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_colors.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_colors.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +17,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="129" lean-forward="false" selection-start-line="56" selection-start-column="129" selection-end-line="56" selection-end-column="129" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,13 +84,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_fonts.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_typography.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/whothat/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/_grid.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_colors.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/footer/_footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-theme-customizer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/whothat/search.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/whothat/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss" />
       </list>
     </option>
   </component>
@@ -353,7 +369,7 @@
       <workItem from="1502001044279" duration="491000" />
       <workItem from="1502456593518" duration="13031000" />
       <workItem from="1502692813065" duration="4775000" />
-      <workItem from="1502700773055" duration="15956000" />
+      <workItem from="1502700773055" duration="19077000" />
     </task>
     <task id="LOCAL-00001" summary="Arbejder med at implementere 2 ting :&#10;&#10;1) mit eget hoved-tema - WHOTHAT&#10;2) skift fra css og så over til scss&#10;&#10;Det er ikke helt færdigt endnu!">
       <created>1501160403199</created>
@@ -432,14 +448,22 @@
       <option name="project" value="LOCAL" />
       <updated>1502470145993</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="footeren er mere eller mindre færdig :-D">
+      <created>1502720257252</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502720257252</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126994000" />
+    <option name="totallyTimeSpent" value="130115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5015987" order="8" side_tool="true" content_ui="tabs" />
@@ -449,7 +473,7 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871124" sideWeight="0.49840128" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12798092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15222576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15222576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -479,7 +503,8 @@
     <MESSAGE value="implementeret custom loader" />
     <MESSAGE value="..." />
     <MESSAGE value="tæt på at være færdig med footeren..." />
-    <option name="LAST_COMMIT_MESSAGE" value="tæt på at være færdig med footeren..." />
+    <MESSAGE value="footeren er mere eller mindre færdig :-D" />
+    <option name="LAST_COMMIT_MESSAGE" value="footeren er mere eller mindre færdig :-D" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\Users\SK-WhoThat\Github\Web-sites\wordpress\slagelselift.dk</wordpressPath>
@@ -489,13 +514,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/screenshot.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -610,6 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,28 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="2" lean-forward="false" selection-start-line="54" selection-start-column="2" selection-end-line="55" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -761,6 +762,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="129" lean-forward="false" selection-start-line="56" selection-start-column="129" selection-end-line="56" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
           <folding />
         </state>
       </provider>
