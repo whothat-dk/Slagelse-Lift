@@ -51,11 +51,16 @@
                     </div>
                     <!-- LOWER PART -->
                     <div class="col-12">
+                        <!-- Search field -->
                         <div class="headerSearchBox">
                             <form action="search.php" method="post">
                                 <input  id="searchBox" type="text" placeholder="Søg på model, højde, lifttype eller lignende..." value="" maxlength="50" autocomplete="on" onmousedown="" onblur="" />
-                                <button id="searchBtn" type="submit" value="Søg"/><i class="fa fa-search" aria-hidden="true"></i>
+                                <button id="searchBtn" type="submit" value="Søg"/><i class="fa fa-search" aria-hidden="true"><span><a>SØG</a></span></i>
                             </form>
+                        </div>
+                        <!-- Advance Search -->
+                        <div class="searchBtnAdvance">
+                            <button id="searchAdv" type="submit">Vis udvidet søgemuligheder</button>
                         </div>
                     </div>
                 </div>
