@@ -1,4 +1,18 @@
+/**
+ * Global CSS that applies to everywhere...
+ */
 * {
 
-  // box-sizing: border-box;
+  // Resetting H-tags
+  h1, h2, h3, h4, h5, h6 {
+
+    font-weight: normal;
+    margin: 0;
+  }
+
+  // Resetting A+P-tags
+  a, p {
+
+    margin: 0;
+  }
 }

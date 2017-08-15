@@ -27,7 +27,7 @@ function vc_before_init_actions() {
 	require_once( get_template_directory().'/composer/content-imageBox.php' );
 	require_once( get_template_directory().'/composer/social-Facebook.php' );
 	require_once( get_template_directory().'/composer/fa_iconbox.php' );
-	//require_once( get_template_directory().'/composer/infoBox.php' );
+	require_once( get_template_directory().'/composer/mail_SignUp.php' );
 	//require_once( get_template_directory().'/composer/employeeBox.php' );
 	//require_once( get_template_directory().'/composer/faIconBox.php' );
 
