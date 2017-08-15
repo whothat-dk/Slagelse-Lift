@@ -40,10 +40,10 @@ header {
     font-size: 16px;
     @include links(
 
-      $colorWhite,  // color : LINK
-      $colorWhite,  // color : VISITED
-      $colorAccent, // color : HOVER
-      $colorAccent  // color : ACTIVE
+                    $colorWhite,  // color : LINK
+                    $colorWhite,  // color : VISITED
+                    $colorAccent, // color : HOVER
+                    $colorAccent  // color : ACTIVE
     );
   }
 }
@@ -79,13 +79,15 @@ header {
   form{
 
     font-size: 0;
+    position: relative;
+    margin: 0 auto;
   }
 
   input {
 
     @extend .border;
     border-radius: 10px 0 0 10px; // top-left, top-right, low-right, low-left
-    width: 540px;
+    width: 600px;
     height: 60px;
     padding: 0 20px 0 20px;
   }
@@ -98,17 +100,20 @@ header {
     height: 60px;
     background-color: white;
     padding: 0 20px 0 0;
+    position: absolute;
+    z-index: 2;
   }
 
   a {
 
     color: black;
-    margin: 0 30px 0 10px;
+    margin: 0 40px 0 10px;
   }
 
   i {
 
     color: black;
+    font-size: 20px;
   }
 }
 
