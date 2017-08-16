@@ -24,11 +24,13 @@ function vc_before_init_actions() {
 	 * [ in Visual Composer elements-tab!       ]
 	 *
 	 */
-	require_once( get_template_directory().'/composer/content-imageBox.php' );
-	require_once( get_template_directory().'/composer/social-Facebook.php' );
-	require_once( get_template_directory().'/composer/fa_iconbox.php' );
-	require_once( get_template_directory().'/composer/mail_SignUp.php' );
-	//require_once( get_template_directory().'/composer/employeeBox.php' );
-	//require_once( get_template_directory().'/composer/faIconBox.php' );
 
+	// Page Content Elements
+	require_once( get_template_directory().'/composer/contactBox.php' );
+	require_once( get_template_directory().'/composer/imageBox.php' );
+	require_once( get_template_directory().'/composer/iconbox.php' );
+	require_once( get_template_directory().'/composer/mailSignUp.php' );
+
+	// Social Elements
+	require_once( get_template_directory().'/composer/socialFacebook.php' );
 }

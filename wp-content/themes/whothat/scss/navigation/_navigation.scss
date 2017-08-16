@@ -77,6 +77,8 @@ header {
 
   form{
 
+    width: 600px;
+    height: 60px;
     font-size: 0;
     position: relative;
     margin: 0 auto;
@@ -86,8 +88,8 @@ header {
 
     @extend .border;
     border-radius: 10px 0 0 10px; // top-left, top-right, low-right, low-left
-    width: 600px;
-    height: 60px;
+    width: 90%;
+    height: 100%;
     padding: 0 20px 0 20px;
   }
 
@@ -95,8 +97,8 @@ header {
 
     @extend .border;
     border-radius: 0 10px 10px 0; // top-left, top-right, low-right, low-left
-    width: 60px;
-    height: 60px;
+    width: 10%;
+    height: 100%;
     background-color: white;
     padding: 0 20px 0 0;
     position: absolute;

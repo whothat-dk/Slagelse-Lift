@@ -30,6 +30,18 @@ class vc_mailSignUp extends WPBakeryShortCode {
 				'icon' => get_template_directory_uri().'/assets/icons/ic_vc-element_imagebox.png',
 				'params' => array(
 
+					array(
+						'type' => 'textfield',
+						'heading' => __( 'Extra class name', 'mailSignUp' ),
+						'param_name' => 'el_class',
+						'description' => __( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'mailSignUp' ),
+					),
+					array(
+						'type' => 'css_editor',
+						'heading' => __( 'Css', 'mailSignUp' ),
+						'param_name' => 'css',
+						'group' => __( 'Design options', 'mailSignUp' ),
+					),
 				),
 			)
 		);
@@ -45,16 +57,17 @@ class vc_mailSignUp extends WPBakeryShortCode {
 			shortcode_atts(
 				array(
 
+					'css' => '',
+					'el_class' => '',
 				),
 				$atts
 			)
 		);
-		$href = vc_build_link( $target_link );
-
+		$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class( $css, ' ' ), $this->settings['base'], $atts );
 		// Fill $html var with data
 		$html = '
-	        <div class="vc_mailSignUp_wrap ' . esc_attr( $css ) . '">
-                <div class="mailSignUpForm">
+	        <div class="vc_mailSignUp_wrap ' . $el_class. '">
+                <div class="mailSignUpForm ' .esc_attr( $css_class ). '">
                     <h3>TILMELD NYHEDSBREV</h3>
                     <p>få nyheder og tilbud direkte ind<br>i indbakken.</p>
                     <form action="" method="post">

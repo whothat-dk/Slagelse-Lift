@@ -1,0 +1,31 @@
+.contactbox {
+
+  width: 270px;
+  height: 105px;
+  padding-top: 20px;
+  text-align: center;
+
+  @extend .box;
+
+  h6 {
+
+    font-size: 15px;
+    color: $colorWhite;
+  }
+
+  h1 {
+
+    margin-top: 15px;
+    font-size: 34px;
+    font-weight: bold;
+    color: $colorWhite;
+  }
+}
+
+.box {
+
+  background-color: $colorPrimary;
+  border-bottom: 5px solid;
+  border-bottom-color: $colorAccent;
+  box-sizing: border-box;
+}
