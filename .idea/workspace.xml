@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1794f25-64d3-4481-9e9a-b67787dbde39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/assets/images/logo-mobile-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css.map" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,24 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_mailSignUp.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mail_SignUp.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/mail_SignUp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#52#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -81,7 +66,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/composer/imageBox.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/composer/imageBox2.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_fonts.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_typography.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/_grid.scss" />
@@ -99,6 +83,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/composer/mail_SignUp.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_globals.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -148,120 +133,38 @@
           <expand>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
               <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
               <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
               <item name="themes" type="cbb8eebc:String" user="themes" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
               <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
               <item name="themes" type="cbb8eebc:String" user="themes" />
               <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="composer" type="cbb8eebc:String" user="composer" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="functions" type="cbb8eebc:String" user="functions" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
               <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
               <item name="themes" type="cbb8eebc:String" user="themes" />
               <item name="whothat" type="cbb8eebc:String" user="whothat" />
               <item name="scss" type="cbb8eebc:String" user="scss" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="animation" type="cbb8eebc:String" user="animation" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="composer" type="cbb8eebc:String" user="composer" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="footer" type="cbb8eebc:String" user="footer" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="layout" type="cbb8eebc:String" user="layout" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="navigation" type="cbb8eebc:String" user="navigation" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="site" type="cbb8eebc:String" user="site" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Slagelse-Lift" type="cbb8eebc:String" user="Slagelse-Lift" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="variables" type="cbb8eebc:String" user="variables" />
             </path>
           </expand>
           <select />
@@ -425,19 +328,12 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/watcherTasks.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/footer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-composer-elements.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-theme-customizer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/header.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/footer/_footer.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/_grid.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/site/_site.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/style.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/style.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_colors.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -445,12 +341,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/assets/icons/ic_logo_color.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/assets/icons/ic_logo_white.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/composer/mail_SignUp.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/scss/variables/_globals.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/search.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/assets/images/logo-mobile-white.png</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -458,7 +349,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/wp-content/themes/whothat/tmp-footer.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -584,7 +474,8 @@
       <workItem from="1502456593518" duration="13031000" />
       <workItem from="1502692813065" duration="4775000" />
       <workItem from="1502700773055" duration="19117000" />
-      <workItem from="1502781257593" duration="22258000" />
+      <workItem from="1502781257593" duration="22324000" />
+      <workItem from="1502866187027" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="Arbejder med at implementere 2 ting :&#10;&#10;1) mit eget hoved-tema - WHOTHAT&#10;2) skift fra css og så over til scss&#10;&#10;Det er ikke helt færdigt endnu!">
       <created>1501160403199</created>
@@ -691,46 +582,42 @@
       <option name="project" value="LOCAL" />
       <updated>1502797758196</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="færdig med designet af mailSignUp form">
+      <created>1502808912949</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1502808912950</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153374000" />
+    <option name="totallyTimeSpent" value="152840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12798092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15222576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5015987" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32417583" sideWeight="0.5461049" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32519686" sideWeight="0.45389506" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871124" sideWeight="0.49840128" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12793177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5015987" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871124" sideWeight="0.49840128" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12798092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32519686" sideWeight="0.5461049" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15222576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,13 +651,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/layout/hamburger/_hamburger.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/js/hamburger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -828,6 +708,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,6 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,6 +739,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="72" lean-forward="false" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,6 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,13 +758,6 @@
           <folding>
             <element signature="e#6#92#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -904,6 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,6 +796,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,6 +866,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1004">
           <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/mail_SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#52#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -995,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,29 +908,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/navigation/_navigation.scss">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1130">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_mailSignUp.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/mail_SignUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
+        <state relative-caret-position="-1479">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#52#0#PHP" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
