@@ -1077,10 +1077,24 @@ a {
 .iconbox {
   width: 285px;
   height: 70px;
-  background-color: green; }
+  margin-bottom: 40px;
+  float: left; }
+  .iconbox img {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    clear: both; }
+  .iconbox img:hover {
+    fill: #db9e36 !important; }
+  .iconbox h4 {
+    margin-top: 15px; }
   .iconbox p {
     font-size: 13px;
     color: #8a8a8a; }
+  .iconbox .label, .iconbox h4, .iconbox p {
+    overflow: auto;
+    display: block; }
 
 .imagebox_link {
   width: 100%;

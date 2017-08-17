@@ -2,15 +2,40 @@
 
   width: 285px;
   height: 70px;
-  background-color: green;
+  //border:1px solid #666;
+  margin-bottom: 40px;
+  float:left;
+
+  img {
+
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    clear: both;
+  }
+
+  img:hover {
+
+    fill: $colorAccent !important;
+  }
 
   h4 {
 
+    margin-top: 15px;
+    @extend .label;
   }
 
   p{
 
     font-size: 13px;
     color: $colorGrey;
+    @extend .label;
+  }
+
+  .label {
+
+    overflow: auto;
+    display: block;
   }
 }
