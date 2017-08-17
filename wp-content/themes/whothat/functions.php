@@ -49,6 +49,9 @@ wp_register_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.j
 wp_enqueue_script( 'hamburger' );
 wp_register_script( 'loader', get_template_directory_uri() . '/js/loader.js', array( 'jquery' ), '1.0.0' );
 wp_enqueue_script( 'loader' );
+wp_register_script( 'svg', get_template_directory_uri() . '/js/svg.js', array( 'jquery' ), '1.0.0' );
+wp_enqueue_script( 'svg' );
+
 
 /**
  * ADD SUPPORT FOR NAV_MENUS.

@@ -15,9 +15,20 @@
     clear: both;
   }
 
-  img:hover {
 
-    fill: $colorAccent !important;
+  svg {
+
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-right: 30px;
+    clear: both;
+  }
+
+  svg:hover path, svg:hover rect, svg:hover polygon {
+
+    transition: all 0.3s ease;
+    fill: $colorAccent;
   }
 
   h4 {

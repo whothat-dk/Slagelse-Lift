@@ -97,10 +97,9 @@ class vc_iconbox extends WPBakeryShortCode {
 	}
 
 
+
 	// Element HTML
 	public function vc_render_iconbox( $atts ) {
-
-
 
 		// Params extraction
 		extract(
@@ -129,14 +128,19 @@ class vc_iconbox extends WPBakeryShortCode {
 			$anchor_end =  '';
 		}
 
+		// ...
+		$svg = file_get_contents($vc_iconbox_image);
 
-
+		// ...
 		$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class( $vc_iconbox_cssOptions, ' ' ), $this->settings['base'], $atts );
 		// Fill $html var with data
 		$html = ' 
 	        <div class="vc_iconbox_wrap ' . $vc_iconbox_extraCSS. '">
 				<div class="iconbox ' .esc_attr( $css_class ). '">
-					<img src="'.$vc_iconbox_image.'">
+					
+					<!-- Parsing the .svg image into the box -->
+					'.$svg.'
+					<!-- Parsing the labels into the box -->
 					<h4>'.$vc_iconbox_label.'</h4>
 					<p>'.$vc_iconbox_subtext.'</p>	
 				</div>
