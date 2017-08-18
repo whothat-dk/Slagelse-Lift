@@ -65,10 +65,17 @@
                     </div>
                 </div>
             </div>
-            <!-- Breadcrump -->
+            <!-- Breadcrumb -->
             <div class="breadcrumb">
                 <div class="gc">
-                    <p>breadcrumb >> næste side</p>
+                    <!--<p>breadcrumb >> næste side</p>-->
+	                <?php
+	                if ( function_exists('yoast_breadcrumb') ) {
+		                yoast_breadcrumb('
+                        <p id="breadcrumbs">','</p>
+                        ');
+	                }
+	                ?>
                 </div>
             </div>
 		</header>

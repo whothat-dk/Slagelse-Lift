@@ -1,55 +1,45 @@
 .imagebox {
 
-  width: 285px;
-  height: 70px;
-  //border:1px solid #666;
-  margin-bottom: 40px;
-  float:left;
-
-  img {
-
-    height: 70px;
-    width: 70px;
-    float: left;
-    margin-right: 30px;
-    clear: both;
-  }
-
+  width: 270px;
+  height: 175px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 
   svg {
 
-    height: 70px;
-    width: 70px;
-    float: left;
-    margin-right: 30px;
+    height: 65px;
+    width: 65px;
+    margin: auto;
     clear: both;
+    display: block;
+    fill: $colorPrimary;
+
+    /*
+    @include svg (
+
+      $colorAccent // color : HOVER
+    );
+    */
   }
 
-  svg path {
+  svg:hover path, svg:hover rect, svg:hover polygon {
 
-    fill: $colorAccent !important;
+    transition: all 0.3s ease;
+    fill: $colorAccent;
   }
 
-  img:hover {
+  h2 {
 
-    fill: $colorAccent !important;
-  }
-
-  h4 {
-
-    margin-top: 15px;
-    @extend .label;
-  }
-
-  p{
-
-    font-size: 13px;
-    color: $colorGrey;
+    margin-top: 35px;
+    font-family: $font-Lato;
+    font-size: 15px;
+    color: $colorPrimary;
     @extend .label;
   }
 
   .label {
 
+    text-align: center;
     overflow: auto;
     display: block;
   }

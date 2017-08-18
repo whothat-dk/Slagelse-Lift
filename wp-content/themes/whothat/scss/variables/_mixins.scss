@@ -38,3 +38,30 @@
     }
   }
 }
+
+/**
+ * mixin : SVG-HOVER COLOR // TODO : Prøv senere om du kan få denne til at virke?!
+ */
+/*
+@mixin svg ($hover) {
+
+  content[path, rect, polygon]
+
+  @if $hover == hover {
+
+    svg:hover path, svg:hover rect, svg:hover polygon {
+
+      transition: all 0.3s ease;
+      fill: $hover;
+    }
+  }
+}
+*/
+
+/*
+svg:hover path, svg:hover rect, svg:hover polygon {
+
+  transition: all 0.3s ease;
+  fill: $colorAccent;
+}
+*/

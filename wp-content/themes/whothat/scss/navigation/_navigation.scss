@@ -37,12 +37,13 @@ header {
   a {
 
     font-size: 16px;
+    text-transform: uppercase;
     @include links(
 
-                    $colorWhite,  // color : LINK
-                    $colorWhite,  // color : VISITED
-                    $colorAccent, // color : HOVER
-                    $colorAccent  // color : ACTIVE
+      $colorWhite,  // color : LINK
+      $colorWhite,  // color : VISITED
+      $colorAccent, // color : HOVER
+      $colorAccent  // color : ACTIVE
     );
   }
 }

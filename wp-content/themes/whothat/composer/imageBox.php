@@ -62,17 +62,6 @@ class vc_imagebox extends WPBakeryShortCode {
 						'holder'        => 'h3',
 						'admin_label'   => false,
 					),
-					// icon : SUBTEXT
-					array(
-						'param_name'    => 'vc_imagebox_subtext',
-						'heading'       => __( 'ICON SUBTEXT', 'vc_imagebox' ),
-						'description'   => __( 'Sets the subtext of the icon', 'vc_imagebox' ),
-						'group'         => 'General',
-						'weight'        => 0,
-						'type'          => 'textfield',
-						'holder'        => 'h3',
-						'admin_label'   => false,
-					),
 					// Extra class
 					array(
 						'param_name'    => 'vc_imagebox_extraCSS',
@@ -98,7 +87,7 @@ class vc_imagebox extends WPBakeryShortCode {
 
 
 	// Element HTML
-	public function vc_render_iconbox( $atts ) {
+	public function vc_render_imagebox( $atts ) {
 
 
 
@@ -110,7 +99,6 @@ class vc_imagebox extends WPBakeryShortCode {
 					'vc_imagebox_image'      => '',
 					'vc_imagebox_targetlink' => '',
 					'vc_imagebox_label'      => 'icon LABEL',
-					'vc_imagebox_subtext'    => 'icon SUBTEXT',
 					'vc_imagebox_extraCSS'   => '',
 					'vc_imagebox_cssOptions' => '',
 				),
@@ -130,15 +118,20 @@ class vc_imagebox extends WPBakeryShortCode {
 		}
 
 
+		// ...
+		$svg = file_get_contents($vc_imagebox_image);
 
-		$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class( $vc_iconbox_cssOptions, ' ' ), $this->settings['base'], $atts );
+		// ...
+		$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class( $vc_imagebox_cssOptions, ' ' ), $this->settings['base'], $atts );
 		// Fill $html var with data
 		$html = ' 
 	        <div class="vc_imagebox_wrap ' . $vc_imagebox_extraCSS. '">
 				<div class="imagebox ' .esc_attr( $css_class ). '">
-					<img class="svg" src="'.$vc_imagebox_image.'">
-					<h4>'.$vc_imagebox_label.'</h4>
-					<p>'.$vc_imagebox_subtext.'</p>	
+					
+					<!-- Parsing the .svg image into the box -->
+					'.$svg.'
+					<!-- Parsing the labels into the box -->
+					<h2>'.$vc_imagebox_label.'</h2>
 				</div>
 			</div>	
         ';

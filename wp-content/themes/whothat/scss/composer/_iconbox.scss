@@ -23,6 +23,13 @@
     float: left;
     margin-right: 30px;
     clear: both;
+
+    /*
+    @include svg (
+
+      $colorAccent // color : HOVER
+    );
+    */
   }
 
   svg:hover path, svg:hover rect, svg:hover polygon {

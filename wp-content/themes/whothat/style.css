@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Importing variables : COLORS + FONTS
  */
@@ -39,6 +40,31 @@
 /**
  * mixin : MENU-ITEMS COLOR
  */
+/**
+ * mixin : SVG-HOVER COLOR // TODO : Pr├©v senere om du kan f├Ñ denne til at virke?!
+ */
+/*
+@mixin svg ($hover) {
+
+  content[path, rect, polygon]
+
+  @if $hover == hover {
+
+    svg:hover path, svg:hover rect, svg:hover polygon {
+
+      transition: all 0.3s ease;
+      fill: $hover;
+    }
+  }
+}
+*/
+/*
+svg:hover path, svg:hover rect, svg:hover polygon {
+
+  transition: all 0.3s ease;
+  fill: $colorAccent;
+}
+*/
 /**
  * H-TAG's
  */
@@ -1063,7 +1089,7 @@ a {
     font-size: 15px;
     color: #ffffff; }
   .contactbox h1 {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 34px;
     font-weight: bold;
     color: #ffffff; }
@@ -1090,7 +1116,13 @@ a {
     width: 70px;
     float: left;
     margin-right: 30px;
-    clear: both; }
+    clear: both;
+    /*
+    @include svg (
+
+      $colorAccent // color : HOVER
+    );
+    */ }
   .iconbox svg:hover path, .iconbox svg:hover rect, .iconbox svg:hover polygon {
     transition: all 0.3s ease;
     fill: #db9e36; }
@@ -1099,37 +1131,38 @@ a {
   .iconbox p {
     font-size: 13px;
     color: #8a8a8a; }
-  .iconbox .label, .iconbox h4, .iconbox p, .iconbox .imagebox h4, .imagebox .iconbox h4, .iconbox .imagebox p, .imagebox .iconbox p {
+  .iconbox .label, .iconbox h4, .iconbox p, .iconbox .imagebox h2, .imagebox .iconbox h2 {
     overflow: auto;
     display: block; }
 
 .imagebox {
-  width: 285px;
-  height: 70px;
-  margin-bottom: 40px;
-  float: left; }
-  .imagebox img {
-    height: 70px;
-    width: 70px;
-    float: left;
-    margin-right: 30px;
-    clear: both; }
+  width: 270px;
+  height: 175px;
+  margin-top: 30px;
+  margin-bottom: 60px; }
   .imagebox svg {
-    height: 70px;
-    width: 70px;
-    float: left;
-    margin-right: 30px;
-    clear: both; }
-  .imagebox svg path {
-    fill: #db9e36 !important; }
-  .imagebox img:hover {
-    fill: #db9e36 !important; }
-  .imagebox h4 {
-    margin-top: 15px; }
-  .imagebox p {
-    font-size: 13px;
-    color: #8a8a8a; }
-  .imagebox .label, .imagebox .iconbox h4, .iconbox .imagebox h4, .imagebox .iconbox p, .iconbox .imagebox p, .imagebox h4, .imagebox p {
+    height: 65px;
+    width: 65px;
+    margin: auto;
+    clear: both;
+    display: block;
+    fill: #0f4b70;
+    /*
+    @include svg (
+
+      $colorAccent // color : HOVER
+    );
+    */ }
+  .imagebox svg:hover path, .imagebox svg:hover rect, .imagebox svg:hover polygon {
+    transition: all 0.3s ease;
+    fill: #db9e36; }
+  .imagebox h2 {
+    margin-top: 35px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #0f4b70; }
+  .imagebox .label, .imagebox .iconbox h4, .iconbox .imagebox h4, .imagebox .iconbox p, .iconbox .imagebox p, .imagebox h2 {
+    text-align: center;
     overflow: auto;
     display: block; }
 
@@ -1316,7 +1349,8 @@ header li {
 header .current-menu-item a {
   color: #db9e36 !important; }
 header a {
-  font-size: 16px; }
+  font-size: 16px;
+  text-transform: uppercase; }
   header a {
     color: #ffffff; }
     header a:visited {
