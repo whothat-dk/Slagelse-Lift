@@ -27,9 +27,9 @@ function vc_before_init_actions() {
 
 	// Page Content Elements
 	require_once( get_template_directory().'/composer/contactBox.php' );
-	require_once( get_template_directory().'/composer/imageBox.php' );
+	require_once( get_template_directory().'/composer/featurePost.php' );
 	require_once( get_template_directory().'/composer/iconbox.php' );
-	require_once( get_template_directory().'/composer/iconbox2.php' );
+	require_once( get_template_directory().'/composer/imageBox.php' );
 	require_once( get_template_directory().'/composer/mailSignUp.php' );
 
 	// Social Elements

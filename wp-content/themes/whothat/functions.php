@@ -45,8 +45,8 @@ add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
  * JAVASCRIPT
  */
 //wp_enqueue_script( 'main', get_template_directory_uri() . '/js/scripts.js', array ( 'jquery' ), 1.1, true);
-wp_register_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.js', array( 'jquery' ), '1.0.0' );
-wp_enqueue_script( 'hamburger' );
+//wp_register_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.js', array( 'jquery' ), '1.0.0' );
+//wp_enqueue_script( 'hamburger' );
 wp_register_script( 'loader', get_template_directory_uri() . '/js/loader.js', array( 'jquery' ), '1.0.0' );
 wp_enqueue_script( 'loader' );
 

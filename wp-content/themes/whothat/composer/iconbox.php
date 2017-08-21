@@ -117,7 +117,7 @@ class vc_iconbox extends WPBakeryShortCode {
 			)
 		);
 
-		$href = vc_build_link( $target_link );
+		$href = vc_build_link( $vc_iconbox_targetlink );
 		if(strlen($href[url]) > 1) {
 
 			$anchor =  '<a href="'. $href[url] .'" target="'.$href[target].'" class="vc_iconbox_targetlink" >';
