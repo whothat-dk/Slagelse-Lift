@@ -4,13 +4,11 @@
   height: 430px;
   margin-top: 65px;
   margin-bottom: 110px;
-  background-color: green;
 
   img {
 
     width: 100%;
     height: 218px;
-    border-bottom: solid 1px #0e0e0e;
   }
 
   h3 {
@@ -22,10 +20,10 @@
 
   p {
 
+    height: 84px;
     font-size: 13px;
     color: $colorWhite;
     margin-top: 25px;
-    margin-bottom: 20px;
   }
 
   button {
@@ -35,7 +33,6 @@
     background-color: $colorPrimary;
     color: $colorWhite;
     text-align: center;
-    margin-top: 20px;
 
     @extend .border;
 

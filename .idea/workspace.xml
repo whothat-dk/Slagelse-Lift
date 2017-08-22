@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1794f25-64d3-4481-9e9a-b67787dbde39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox2.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/fav.ico" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_contactbox.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_contactBox.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_iconbox.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_iconBox.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_imagebox.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_imageBox.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-composer-elements.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-composer-elements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/whothat/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/whothat/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iconbox.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox.php">
+      <file leaf-file-name="featurePost.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="896">
+              <caret line="151" column="22" lean-forward="false" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="featurePost.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php">
+      <file leaf-file-name="_featurePost.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -112,9 +103,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-composer-elements.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss" />
       </list>
     </option>
   </component>
@@ -158,6 +149,123 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="plugins" type="cbb8eebc:String" user="plugins" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="composer" type="cbb8eebc:String" user="composer" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="functions" type="cbb8eebc:String" user="functions" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="scss" type="cbb8eebc:String" user="scss" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="scss" type="cbb8eebc:String" user="scss" />
+              <item name="composer" type="cbb8eebc:String" user="composer" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="scss" type="cbb8eebc:String" user="scss" />
+              <item name="layout" type="cbb8eebc:String" user="layout" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="scss" type="cbb8eebc:String" user="scss" />
+              <item name="navigation" type="cbb8eebc:String" user="navigation" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="scss" type="cbb8eebc:String" user="scss" />
+              <item name="site" type="cbb8eebc:String" user="site" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
+              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
+              <item name="themes" type="cbb8eebc:String" user="themes" />
+              <item name="whothat" type="cbb8eebc:String" user="whothat" />
+              <item name="scss" type="cbb8eebc:String" user="scss" />
+              <item name="variables" type="cbb8eebc:String" user="variables" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,123 +391,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="plugins" type="cbb8eebc:String" user="plugins" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="composer" type="cbb8eebc:String" user="composer" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="functions" type="cbb8eebc:String" user="functions" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="js" type="cbb8eebc:String" user="js" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="composer" type="cbb8eebc:String" user="composer" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="layout" type="cbb8eebc:String" user="layout" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="navigation" type="cbb8eebc:String" user="navigation" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="site" type="cbb8eebc:String" user="site" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="slagelselift.dk" type="cbb8eebc:String" user="slagelselift.dk" />
-              <item name="wp-content" type="cbb8eebc:String" user="wp-content" />
-              <item name="themes" type="cbb8eebc:String" user="themes" />
-              <item name="whothat" type="cbb8eebc:String" user="whothat" />
-              <item name="scss" type="cbb8eebc:String" user="scss" />
-              <item name="variables" type="cbb8eebc:String" user="variables" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,6 +425,14 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -471,7 +470,8 @@
       <workItem from="1502866187027" duration="24848000" />
       <workItem from="1502954836557" duration="21123000" />
       <workItem from="1503040149660" duration="11776000" />
-      <workItem from="1503299882046" duration="12940000" />
+      <workItem from="1503299882046" duration="13806000" />
+      <workItem from="1503387474082" duration="17937000" />
     </task>
     <task id="LOCAL-00001" summary="Arbejder med at implementere 2 ting :&#10;&#10;1) mit eget hoved-tema - WHOTHAT&#10;2) skift fra css og så over til scss&#10;&#10;Det er ikke helt færdigt endnu!">
       <created>1501160403199</created>
@@ -627,14 +627,22 @@
       <option name="project" value="LOCAL" />
       <updated>1503057737681</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Arbejder på VC element til feature section">
+      <created>1503326433654</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1503326433655</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223166000" />
+    <option name="totallyTimeSpent" value="241969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5015987" order="8" side_tool="true" content_ui="tabs" />
@@ -643,10 +651,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32519686" sideWeight="0.45389506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834646" sideWeight="0.49840128" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12798092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12798092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17845787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,6 +662,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -682,7 +690,8 @@
     <MESSAGE value="arbejdet videre med VC elements..." />
     <MESSAGE value="..." />
     <MESSAGE value="Implementeret breadcrumb og feature section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementeret breadcrumb og feature section" />
+    <MESSAGE value="Arbejder på VC element til feature section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arbejder på VC element til feature section" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\Users\SK-WhoThat\Github\Web-sites\wordpress\slagelselift.dk</wordpressPath>
@@ -692,14 +701,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/lana-site/functions.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/imageBox2.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/imageBox.php" />
@@ -783,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,14 +892,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="170" column="29" lean-forward="true" selection-start-line="170" selection-start-column="29" selection-end-line="170" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox2.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/functions/svg.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/functions/whothat-theme.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -929,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,16 +953,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/mailSignUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="76" column="115" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="115" />
-          <folding>
-            <marker date="1502877705172" expanded="true" signature="2064:2676" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="794">
@@ -983,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="58" column="3" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="58" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,22 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1035,10 +998,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/iconbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/mailSignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="76" column="115" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="115" />
+          <folding>
+            <marker date="1502877705172" expanded="true" signature="2064:2676" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/composer/featurePost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="896">
+          <caret line="151" column="22" lean-forward="false" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/whothat/scss/composer/_featurePost.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
