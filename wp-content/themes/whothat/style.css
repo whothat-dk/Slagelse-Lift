@@ -66,6 +66,9 @@ svg:hover path, svg:hover rect, svg:hover polygon {
 }
 */
 /**
+ * mixin : TRANSITION
+ */
+/**
  * H-TAG's
  */
 h1 {
@@ -1153,9 +1156,6 @@ a {
       $colorAccent // color : HOVER
     );
     */ }
-  .iconbox svg:hover path, .iconbox svg:hover rect, .iconbox svg:hover polygon {
-    transition: all 0.3s ease;
-    fill: #db9e36; }
   .iconbox h4 {
     margin-top: 15px; }
   .iconbox p {
@@ -1164,6 +1164,21 @@ a {
   .iconbox .label, .iconbox h4, .iconbox p, .iconbox .imagebox h2, .imagebox .iconbox h2 {
     overflow: auto;
     display: block; }
+
+.iconbox:hover svg path, .iconbox:hover svg rect, .iconbox:hover svg polygon {
+  fill: #db9e36;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+.iconbox:hover h4, .iconbox:hover p {
+  color: #db9e36;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
 
 .imagebox {
   width: 270px;
@@ -1580,6 +1595,7 @@ footer {
   padding-bottom: 100px; }
 
 .footer_social {
+  display: inline-block;
   text-align: center; }
   .footer_social a {
     margin: 0 45px 0 0; }
@@ -1593,8 +1609,21 @@ footer {
       margin: 0 10px 0 45px;
       padding: 10px 0 0 0;
       box-sizing: border-box; }
-    .footer_social a i:hover {
-      background-color: #db9e36; }
+
+.footer_social:hover a {
+  color: #db9e36;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+.footer_social:hover i {
+  background-color: #db9e36;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
 
 .footer_logo {
   height: 10px;
@@ -1627,3 +1656,7 @@ footer {
   .footer_disclaimer p {
     color: #4d4d4d;
     font-style: italic; }
+
+.footer_container {
+  display: block;
+  text-align: center; }

@@ -3,16 +3,21 @@
     <div class="gc">
         <!-- UPPER PART -->
         <div class="col-12 footer_top">
-            <div class="footer_social">
+            <div class="footer_container">
                 <!-- facebook -->
-                <a href="<?= get_theme_mod( 'footer_social_url_facebook' ); ?>" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
-                    FØLG MED PÅ FACEBOOK
-                </a>
+                <div class="footer_social">
+                    <a href="<?= get_theme_mod( 'footer_social_url_facebook' ); ?>" target="_blank" class="">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        FØLG MED PÅ FACEBOOK
+                    </a>
+                </div>
                 <!-- linkedin -->
-                <!--<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                <a href="<?= get_theme_mod( 'footer_social_url_linkedin' ); ?>" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
-                    FIND OS PÅ LINKEDIN
-                </a>
+                <div class="footer_social">
+                    <a href="<?= get_theme_mod( 'footer_social_url_linkedin' ); ?>" target="_blank" class="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        FIND OS PÅ LINKEDIN
+                    </a>
+                </div>
             </div>
         </div>
         <!-- MIDDLE PART -->

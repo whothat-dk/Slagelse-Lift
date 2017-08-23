@@ -32,28 +32,39 @@
     */
   }
 
-  svg:hover path, svg:hover rect, svg:hover polygon {
-
-    transition: all 0.3s ease;
-    fill: $colorAccent;
-  }
-
   h4 {
 
     margin-top: 15px;
     @extend .label;
   }
 
-  p{
+  p {
 
     font-size: 13px;
     color: $colorGrey;
     @extend .label;
   }
 
+
+
   .label {
 
     overflow: auto;
     display: block;
+  }
+}
+
+.iconbox:hover {
+
+  & svg path, svg rect, svg polygon {
+
+    fill: $colorAccent;
+    @include transition (all, 0.3s, ease);
+  }
+
+  & h4, p {
+
+    color: $colorAccent;
+    @include transition (all, 0.3s, ease);
   }
 }

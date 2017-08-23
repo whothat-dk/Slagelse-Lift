@@ -21,10 +21,6 @@ footer {
 
     margin: 0;
   }
-
-  p:hover {
-
-  }
 }
 
 .footer_top {
@@ -35,6 +31,7 @@ footer {
 
 .footer_social {
 
+  display: inline-block;
   text-align: center;
 
   a {
@@ -53,11 +50,21 @@ footer {
       padding: 10px 0 0 0;
       box-sizing: border-box;
     }
+  }
+}
 
-    i:hover {
+.footer_social:hover {
 
-      background-color: $colorAccent;
-    }
+  & a {
+
+    color: $colorAccent;
+    @include transition (all, 0.3s, ease);
+  }
+
+  & i {
+
+    background-color: $colorAccent;
+    @include transition (all, 0.3s, ease);
   }
 }
 
@@ -116,4 +123,9 @@ footer {
     color: $colorGraphite;
     font-style: italic;
   }
+}
+
+.footer_container {
+  display: block;
+  text-align: center;
 }

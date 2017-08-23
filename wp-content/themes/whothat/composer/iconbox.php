@@ -137,7 +137,6 @@ class vc_iconbox extends WPBakeryShortCode {
 		$html = ' 
 	        <div class="vc_iconbox_wrap ' . $vc_iconbox_extraCSS. '">
 				<div class="iconbox ' .esc_attr( $css_class ). '">
-					
 					<!-- Parsing the .svg image into the box -->
 					'.$svg.'
 					<!-- Parsing the labels into the box -->
